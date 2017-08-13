@@ -1,0 +1,21 @@
+# Site settings
+title: flipdot-gmd
+description: >
+  A jekyll site to test github-md-editor with. This is not our main website, for
+  that go to https://flipdot.org/!
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+permalink: /:year/:month/:day/:title.html
+
+markdown: kramdown
+sass:
+  style: compressed
+
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
