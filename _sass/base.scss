@@ -1,0 +1,9 @@
+// Change CSS' stupid default box sizing model
+// See https://css-tricks.com/box-sizing/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}

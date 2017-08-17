@@ -8,8 +8,6 @@ description: >
 plugins:
   - jekyll-feed
 
-permalink: /:year/:month/:day/:title.html
-
 markdown: kramdown
 sass:
   style: compressed

@@ -1,0 +1,16 @@
+.site-header-wrap {
+    border-bottom: 4px solid $primary;
+    box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.site-header {
+    display: flex;
+
+    margin: 0 auto;
+    padding: .5rem;
+    max-width: $max-content-width;
+
+    .logo {
+        height: 3rem;
+    }
+}
