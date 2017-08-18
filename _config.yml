@@ -8,6 +8,8 @@ description: >
 plugins:
   - jekyll-feed
 
+permalink: pretty
+
 markdown: kramdown
 sass:
   style: compressed
