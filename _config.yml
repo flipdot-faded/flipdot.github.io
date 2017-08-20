@@ -4,6 +4,14 @@ description: >
   A jekyll site to test github-md-editor with. This is not our main website, for
   that go to https://flipdot.org/!
 
+nav_items:
+  - text: Blog
+    href: /
+  - text: Projekte
+    href: /projekte
+  - text: Kontakt
+    href: /kontakt
+
 # Build settings
 plugins:
   - jekyll-feed
