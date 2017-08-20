@@ -9,10 +9,6 @@ html {
 }
 
 body {
-    // Make absolute elements with no other positioned parent relative to the
-    // full body, rather than the initial viewport.
-    position: relative;
-
     background-color: #fff;
     color: $flipdot-black;
 }
