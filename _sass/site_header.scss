@@ -50,17 +50,15 @@
         background-color: #fff;
         z-index: 20;
 
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 .5em;
+        height: 4rem;
+        padding: .5em;
     }
 
     .site-nav-dropdown-button {
         display: block;
-        padding: .5rem .8rem;
+        padding: 0 .8rem;
         font-size: 2rem;
-        line-height: 2rem;
+        line-height: 3rem;
 
         cursor: pointer;
         border-radius: .3rem;
