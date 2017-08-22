@@ -19,8 +19,25 @@ body {
 
     min-height: 100%;
 
+    line-height: 1.3;
+    font-family: 'OpenSans';
     background-color: #fff;
     color: $flipdot-black;
+}
+
+strong {
+    // Bold sucks, semi-bold is large enough
+    font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'ISOCPEUR';
+
+    // ISOCPEUR glyphs have whitespace below, but not above. Work around this
+    // moving the whole tag down a little. TODO: Change the font instead of
+    // working around its brokenness in CSS.
+    position: relative;
+    top: .1em;
 }
 
 a {

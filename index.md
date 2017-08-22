@@ -5,7 +5,7 @@ Hello!
 This is a jekyll site made for testing github-md-editor. This is not our main
 website, for that go to [flipdot.org][]!
 
-## ToDo
+# ToDo
 
 * Update favicon (use the same one that's used on the forum)
 * Create a (responsive!) layout + design that mimics the look of [flipdot.org][]
@@ -13,7 +13,7 @@ website, for that go to [flipdot.org][]!
 * Include the editor. Duh. Seems to be possible with submodules:
   <https://help.github.com/articles/using-submodules-with-pages/>
 
-## Unresolved questions
+# Unresolved questions
 
 * Comments!?
   * Potential solution: <https://posativ.org/isso/>
