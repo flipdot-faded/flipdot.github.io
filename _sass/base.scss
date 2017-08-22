@@ -8,10 +8,16 @@ html {
     box-sizing: inherit;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     // Make absolute elements with no other positioned parent relative to the
     // full body, rather than the initial viewport.
     position: relative;
+
+    min-height: 100%;
 
     background-color: #fff;
     color: $flipdot-black;
