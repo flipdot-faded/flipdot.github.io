@@ -7,7 +7,6 @@ website, for that go to [flipdot.org][]!
 
 # ToDo
 
-* Update favicon (use the same one that's used on the forum)
 * Create a (responsive!) layout + design that mimics the look of [flipdot.org][]
   * Mark the section of the site you are on in the navigation
 * Include the editor. Duh. Seems to be possible with submodules:
