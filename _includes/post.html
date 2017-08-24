@@ -11,7 +11,7 @@
         {{ data.excerpt }}
 
         {% if data.content contains '<!-- more -->' %}
-            <p><a href="{{ post.url }}#read-more">Weiterlesen</a></p>
+            <p><a class="btn" href="{{ post.url }}#read-more">Weiterlesen</a></p>
         {% endif %}
     {% elsif include.mode == 'full' %}
         {{ data.content | replace_first: '<!-- more -->', '<a id="read-more"></a>' }}

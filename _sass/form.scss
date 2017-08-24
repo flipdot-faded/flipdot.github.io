@@ -1,0 +1,12 @@
+.btn {
+    padding: .4em .6em;
+
+    text-decoration: none;
+    background-color: $flipdot-yellow;
+    transition: background-color .2s;
+}
+
+.btn:hover {
+    color: $flipdot-black;
+    background-color: $light-yellow;
+}
