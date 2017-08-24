@@ -41,11 +41,21 @@ h1, h2, h3, h4, h5, h6 {
     // working around its brokenness in CSS.
     position: relative;
     top: .1em;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 a {
-    // Get rid of link colorization
+    // Get rid of default link colorization
     color: inherit;
+
+    transition: color .1s;
+}
+
+a:hover {
+    color: $text-grey;
 }
 
 ul, ol {

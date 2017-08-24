@@ -1,0 +1,12 @@
+---
+layout: skel
+---
+<main class="page">
+    <div class="">
+        {{ content }}
+    </div>
+
+    {% for post in site.posts %}
+        {% include post.html data=post mode='excerpt' %}
+    {% endfor %}
+</main>

@@ -19,6 +19,20 @@ plugins:
 
 permalink: pretty
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+excerpt_separator: <!-- more -->
+
 markdown: kramdown
 sass:
   style: compressed

@@ -1,0 +1,19 @@
+{% assign data = include.data %}
+
+<article>
+    <header class="post-header">
+        <h1 class="post-title">
+            <a href="{{ data.url }}">{{ data.title }}</a>
+        </h1>
+    </header>
+
+    {% if include.mode == 'excerpt' %}
+        {{ data.excerpt }}
+
+        {% if data.content contains '<!-- more -->' %}
+            <p><a href="{{ post.url }}#read-more">Weiterlesen</a></p>
+        {% endif %}
+    {% else %}
+        {{ data.content | replace_first: '<!-- more -->', '<a id="read-more"></a>' }}
+    {% endif %}
+</article>
