@@ -13,7 +13,9 @@
         {% if data.content contains '<!-- more -->' %}
             <p><a href="{{ post.url }}#read-more">Weiterlesen</a></p>
         {% endif %}
-    {% else %}
+    {% elsif include.mode == 'full' %}
         {{ data.content | replace_first: '<!-- more -->', '<a id="read-more"></a>' }}
+    {% else %}
+        {% include fail.html %}
     {% endif %}
 </article>
