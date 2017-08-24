@@ -7,6 +7,9 @@ $flipdot-black: #231f20;
 // A grey tone for de-emphasized text
 $text-grey: lighten($flipdot-black, 20%);
 
+// A grey tone for contrast with the otherwise white background
+$bg-grey: #eaeaea;
+
 // Lighter yellow than $flipdot-yellow
 // TODO: Ask about changing this color, it doesn't look very nice.
 $light-yellow: #fbe380;
