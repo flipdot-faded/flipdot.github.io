@@ -15,6 +15,7 @@ nav_items:
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 permalink: pretty
 
