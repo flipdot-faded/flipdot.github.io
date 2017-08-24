@@ -16,8 +16,15 @@ website, for that go to [flipdot.org][]!
 
 * Comments!?
   * Potential solution: <https://posativ.org/isso/>
-* Search?
+* Search
+  * Embedded: <https://github.com/christian-fei/Simple-Jekyll-Search>
+  * Or external: `<form action="https://duckduckgo.com/">`
 * Add a geotag to the sites metadata?
   * Most important question of them all.
+* What to do with "Wiki Lotto"?
+  * Reimplement in Liquid, generating new entries every time the site is
+    regenerated (see <https://stackoverflow.com/a/28323813/1592377> for random
+    numbers)
+  * Remove the feature
 
 [flipdot.org]: https://flipdot.org/
