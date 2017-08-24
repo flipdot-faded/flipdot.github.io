@@ -32,6 +32,7 @@ strong {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'ISOCPEUR';
+    font-weight: 400;
 
     // ISOCPEUR glyphs have whitespace below, but not above. Work around this by
     // moving the whole tag down a little. TODO: Change the font instead of
