@@ -7,6 +7,17 @@
         border-bottom: 2px solid $flipdot-yellow;
     }
 
+    a {
+        text-decoration: none;
+        border-bottom: 1px solid $flipdot-yellow;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        a {
+            border-bottom: none;
+        }
+    }
+
     pre {
         padding: .4em .6em;
     }
@@ -23,5 +34,13 @@
         border-radius: .3em;
         // TODO: keep this?
         border-bottom: 1px solid #aaa;
+    }
+}
+
+.attachment {
+    white-space: nowrap;
+
+    > i {
+        margin-right: .3em;
     }
 }

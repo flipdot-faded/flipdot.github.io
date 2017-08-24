@@ -1,0 +1,17 @@
+{%- if page.layout == 'post' -%}
+    {%- capture attachment_dir -%}
+        /attachments/posts/{{ page.path | remove: '_posts/' | remove: '.md' }}/
+    {%- endcapture -%}
+{%- else -%}
+    {%- capture attachment_dir -%}
+        /attachments/pages/{{ page.path | remove: 'index.md' }}
+    {%- endcapture -%}
+{%- endif -%}
+{%- if include.src -%}
+    <a class="attachment" href="{{ attachment_dir | append: include.src }}">
+        <i class="fa fa-download" aria-hidden="true"></i>
+        {{- include.src -}}
+    </a>
+{%- else -%}
+    {% include fail.html %}
+{%- endif -%}

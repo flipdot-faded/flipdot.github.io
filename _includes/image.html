@@ -1,0 +1,14 @@
+{%- if page.layout == 'post' -%}
+    {%- capture image_dir -%}
+        /img/posts/{{ page.path | remove: '_posts/' | remove: '.md' }}/
+    {%- endcapture -%}
+{%- else -%}
+    {%- capture image_dir -%}
+        /img/pages/{{ page.path | remove: 'index.md' }}
+    {%- endcapture -%}
+{%- endif -%}
+{%- if include.src -%}
+    <img src="{{ image_dir | append: include.src }}" alt="{{ include.alt }}">
+{%- else -%}
+    {% include fail.html %}
+{%- endif -%}
