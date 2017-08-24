@@ -51,6 +51,9 @@ a {
     // Get rid of default link colorization
     color: inherit;
 
+    // Yellow underline
+    text-decoration-color: $flipdot-yellow;
+
     transition: color .1s;
 }
 
