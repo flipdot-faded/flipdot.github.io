@@ -26,5 +26,10 @@ website, for that go to [flipdot.org][]!
     regenerated (see <https://stackoverflow.com/a/28323813/1592377> for random
     numbers)
   * Remove the feature
+* How do we handle special characters in post / page titles?
+  * `%`: <https://flipdot.org/blog/archives/385-34,4-%25-OEffnungsquote-da-ist-noch-Luft.html>
+  * `&`: <https://flipdot.org/blog/archives/384-Leiterplatten-geaetzt-gefraest.html>
+  * `?`: <https://flipdot.org/blog/archives/383-Sicher-Aber-sicher!.html>
+  * `:`: <https://flipdot.org/blog/archives/381-Material-zum-Workshop-Einfuehrung-in-die-Shell.html>
 
 [flipdot.org]: https://flipdot.org/
