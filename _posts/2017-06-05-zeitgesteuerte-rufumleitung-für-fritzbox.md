@@ -1,3 +1,7 @@
+---
+title: Zeitgesteuerte Rufumleitung für Fritzbox
+---
+
 Rufumleitung muss manuell gesetzt und gelöscht werden. Kleine schnelle und
 schmutzige Lösung: Raspberry Pi + USB nach RS232 Wandler + altes Telefonmodem
 zum wählen.

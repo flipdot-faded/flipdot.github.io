@@ -3,24 +3,22 @@
     padding: .5rem;
     max-width: $max-content-width;
 
+    h1 {
+        border-bottom: 2px solid $flipdot-yellow;
+    }
+
     pre {
         padding: .4em .6em;
     }
 
-    code {
-        display: inline-block;
-        line-height: 1.6;
-        vertical-align: middle;
-    }
-
     :not(pre) > code {
-        padding: 0 .3em;
+        display: inline-block;
+        margin: .2em 0;
+        padding: .1em .3em;
     }
 
     pre,
     :not(pre) > code {
-        background-color: $bg-grey;
-        border-radius: .3em;
         background-color: $bg-grey;
         border-radius: .3em;
         // TODO: keep this?
