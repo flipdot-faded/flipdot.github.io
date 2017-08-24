@@ -6,12 +6,12 @@ Rufumleitung muss manuell gesetzt und gelöscht werden. Kleine schnelle und
 schmutzige Lösung: Raspberry Pi + USB nach RS232 Wandler + altes Telefonmodem
 zum wählen.
 
-[![](/post_data/{{ page.url | append: 'dialer_thumb.jpg' }})][dialer]
+[![](/post-data/{{ page.url | append: 'dialer_thumb.jpg' }})][dialer]
 
 Das Modem wird in den analogen Telefonport der Fritzbox gesteckt, Pi und Modem
 mit dem Schnittstellenwandler verbunden. 
 
-[dialer]: /post_data/{{ page.url | append: 'dialer.jpg' }}
+[dialer]: /post-data/{{ page.url | append: 'dialer.jpg' }}
 
 <!-- more -->
 
@@ -43,4 +43,4 @@ Um einen festen Bezeichner für das USB Gerät zu erreichen, hier im Beispiel
 wurde `/dev/RS232_conv` gewählt, kann man nach dieser Anleitung vorgehen.
 
 [usb_rs232]: https://www.reichelt.de/USB-Konverter/DELOCK-61308/3/index.html?ACTION=3&GROUPID=6105&ARTICLE=180183&OFFSET=75&
-[rufumleitung_an_aus.zip]: /post_data/{{ page.url | append: 'rufumleitung_an_aus.zip' }}
+[rufumleitung_an_aus.zip]: /post-data/{{ page.url | append: 'rufumleitung_an_aus.zip' }}
