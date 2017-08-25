@@ -24,7 +24,7 @@ mit dem Schnittstellenwandler verbunden.
 Der Pi bekommt je ein kleines Python Script zum setzen / löschen der
 Rufumleitung. (Beide Scripte hier: {% include attachment.html src='rufumleitung_an_aus.zip' %}).
 
-Die Scipte kommen in das Userverzeichnis `/home/pi`.
+Die Scripte kommen in das Userverzeichnis `/home/pi`.
 
 mit `crontab -e` wird die cron steuerdatei zum bearbeiten geöffnet, und unten
 zwei Einträge angefügt:
