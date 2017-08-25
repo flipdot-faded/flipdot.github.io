@@ -12,6 +12,28 @@ nav_items:
   - text: Kontakt
     href: /kontakt
 
+## https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+status_bar_items:
+  - icon: rss
+    href: /feed.xml
+    aria_label: RSS / Atom feed
+  - icon: twitter
+    href: https://twitter.com/FlipDot_KS
+    aria_label: Flipdot bei Twitter
+  - icon: hashtag
+    href: https://riot.im/app/#/room/#flipdot:matrix.org
+    aria_label: Unser Chat-Raum
+  - icon: github
+    href: https://github.com/flipdot
+    aria_label: Flipdot bei GitHub
+  - icon: vimeo
+    href: https://vimeo.com/flipdot
+    aria_label: Videos aus dem Flipdot bei Vimeo
+  - id: space-status
+    icon: users
+    href: /space-status/
+    aria_label: Space-Status
+
 # Build settings
 plugins:
   - jekyll-feed

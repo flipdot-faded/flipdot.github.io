@@ -14,5 +14,15 @@
         {% endfor %}
         </ul>
     </nav>
+    <ul class="status-bar">
+    {% for item in site.status_bar_items %}
+        <li>
+            <a href="{{ item.href }}" aria-label="{{ item.aria_label }}"
+                {%- if item.id -%}{{ item.id }}{%- endif -%}>
+                <i class="fa fa-lg fa-{{ item.icon }}" aria-hidden="true"></i>
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
 </header>
 <div class="site-header-separator"></div>
