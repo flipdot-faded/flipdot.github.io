@@ -31,7 +31,7 @@ status_bar_items:
     aria_label: Videos aus dem Flipdot bei Vimeo
   - id: space-status
     icon: users
-    href: /space-status/
+    href: /space-status
     aria_label: Space-Status
 
 # Build settings

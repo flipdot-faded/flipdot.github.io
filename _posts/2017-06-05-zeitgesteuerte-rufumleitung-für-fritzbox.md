@@ -22,7 +22,8 @@ mit dem Schnittstellenwandler verbunden.
 - Modem Elsa Microlink 56k basic
 
 Der Pi bekommt je ein kleines Python Script zum setzen / löschen der
-Rufumleitung. (Beide Scripte hier: {% include attachment.html src='rufumleitung_an_aus.zip' %}).
+Rufumleitung. (Beide Scripte hier:
+{% include attachment.html src='rufumleitung_an_aus.zip' %}).
 
 Die Scripte kommen in das Userverzeichnis `/home/pi`.
 
