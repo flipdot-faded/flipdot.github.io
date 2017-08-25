@@ -23,3 +23,5 @@ title: 'New Site: ToDo'
   * `&`: <https://flipdot.org/blog/archives/384-Leiterplatten-geaetzt-gefraest.html>
   * `?`: <https://flipdot.org/blog/archives/383-Sicher-Aber-sicher!.html>
   * `:`: <https://flipdot.org/blog/archives/381-Material-zum-Workshop-Einfuehrung-in-die-Shell.html>
+* Show liquid and JS error messages to the user as a notification with a generic error message
+  and a link to our issue tracker.

@@ -55,6 +55,10 @@
     justify-content: flex-end;
 }
 
+#status-bar-space-status.closed {
+    color: $text-grey;
+}
+
 @media screen and (max-width: $screen-medium - 1px) {
     .header-dropdown-button {
         display: block;

@@ -2,7 +2,10 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+<meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    connect-src 'self' https://api.flipdot.org
+">
 <meta name="description" content="{{ site.description }}">
 
 <!-- Disable automatic detection and formatting of possible phone numbers -->
