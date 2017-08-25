@@ -2,27 +2,27 @@
     <div class="title">
         <a href="/">{% include flipdot.svg %}</a>
     </div>
-    <nav class="site-nav">
-        <input id="site-nav-dropdown-checkbox" type="checkbox">
-        <label for="site-nav-dropdown-checkbox" class="site-nav-dropdown-button">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </label>
-        <label for="site-nav-dropdown-checkbox" class="page-overlay"></label>
-        <ul class="site-nav-items">
+    <input id="header-dropdown-checkbox" type="checkbox">
+    <label for="header-dropdown-checkbox" class="header-dropdown-button">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </label>
+    <label for="header-dropdown-checkbox" class="page-overlay"></label>
+    <div class="header-dropdown-contents">
+        <ul class="site-nav">
         {% for item in site.nav_items %}
             <li><a href="{{ item.href }}">{{ item.text }}</a></li>
         {% endfor %}
         </ul>
-    </nav>
-    <ul class="status-bar">
-    {% for item in site.status_bar_items %}
-        <li>
-            <a href="{{ item.href }}" aria-label="{{ item.aria_label }}"
-                {%- if item.id -%}{{ item.id }}{%- endif -%}>
-                <i class="fa fa-lg fa-{{ item.icon }}" aria-hidden="true"></i>
-            </a>
-        </li>
-    {% endfor %}
-    </ul>
+        <ul class="status-bar">
+        {% for item in site.status_bar_items %}
+            <li>
+                <a href="{{ item.href }}" aria-label="{{ item.aria_label }}"
+                    {%- if item.id -%}{{ item.id }}{%- endif -%}>
+                    <i class="fa fa-lg fa-{{ item.icon }}" aria-hidden="true"></i>
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
 </header>
 <div class="site-header-separator"></div>
