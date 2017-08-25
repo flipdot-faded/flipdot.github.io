@@ -7,8 +7,13 @@
         border-bottom: 2px solid $flipdot-yellow;
     }
 
+    img {
+        max-width: 100%;
+    }
+
     pre {
         padding: .4em .6em;
+        overflow-x: auto;
     }
 
     :not(pre) > code {
