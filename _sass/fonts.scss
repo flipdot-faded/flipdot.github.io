@@ -1,8 +1,11 @@
 @font-face {
+    font-family: 'EmojiOne';
+    src: url('/fonts/emojione-v2.woff') format('woff');
+}
+
+@font-face {
     font-family: 'ISOCPEUR';
     src: url('/fonts/isocpeur.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
 }
 
 @font-face {
