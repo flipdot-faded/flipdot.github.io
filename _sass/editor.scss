@@ -1,0 +1,10 @@
+.page-editor:not(:empty) {
+    margin: 0 auto;
+    padding: .5rem;
+    max-width: $max-content-width;
+
+    // Hide site content when editor is active
+    & + .site-content {
+        display: none;
+    }
+}
