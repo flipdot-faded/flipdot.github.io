@@ -4,8 +4,6 @@ title: 'New Site: ToDo'
 
 * Create a (responsive!) layout + design that mimics the look of [flipdot.org][]
   * Mark the section of the site you are on in the navigation
-* Include the editor. Duh. Seems to be possible with submodules:
-  <https://help.github.com/articles/using-submodules-with-pages/>
 * Add comments
   * Potentially with <https://posativ.org/isso/>
 * Add a search
