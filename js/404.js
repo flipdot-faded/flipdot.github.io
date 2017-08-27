@@ -15,5 +15,11 @@ page_titles[0].textContent = page_name;
 
 document.getElementById("404-message").innerHTML = "\
     <p>Diese Seite existiert noch nicht.</p>\
-    <a class='btn' href='TODO'>Seite erstellen</a>\
+    <a class='btn' id='404-new-page-btn' href='#'>Seite erstellen</a>\
 ";
+
+document.getElementById("404-new-page-btn").addEventListener("click", ev => {
+    ev.preventDefault();
+
+    window.wiki_createPage(window.location.pathname.slice(1));
+});
