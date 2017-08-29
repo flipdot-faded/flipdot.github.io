@@ -15,4 +15,5 @@ Abgesehen von der im vorherigen Absatz verlinkten ToDo-Seite ist alles hier eine
 Kopie unserer [Haupt-Webseite][flipdot.org]. Es gibt aber keine Garantie, dass
 die kopierten Inhalte auf dem aktuellen Stand sind!
 
+[github-md-editor]: https://github.com/flipdot/github-md-editor
 [flipdot.org]: https://flipdot.org/
