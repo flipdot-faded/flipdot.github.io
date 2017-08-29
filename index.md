@@ -2,14 +2,17 @@
 layout: frontpage
 ---
 
-Hello!
+Hallo!
 
-This is a jekyll site made for testing github-md-editor, a project started in
-[Flipdot Kassel][flipdot.org]. If everything goes to plan, it will replace our
-main website some day. But there is still a lot [to do](/new-site-todo) before
-we can switch over.
+Du bist auf unserer Test-Seite für [github-md-editor][] gelandet. "Wir" sind der
+[Flipdot Kassel][flipdot.org], und wir wollen diese Seite irgendwann mal als
+unsere Haupt-Website verwenden (sobald der Editor zuverlässig funktioniert...).
 
-Apart from the ToDo page linked above, everything here is copied from our
-[main website][flipdot.org]. Don't expect this site to be up to date though!
+Was es an dieser Seite noch alles zu tun gibt, bevor der Umzug richtig starten
+kann, kannst du [hier](/neues-wiki-todo) nachlesen.
+
+Abgesehen von der im vorherigen Absatz verlinkten ToDo-Seite ist alles hier eine
+Kopie unserer [Haupt-Webseite][flipdot.org]. Es gibt aber keine Garantie, dass
+die kopierten Inhalte auf dem aktuellen Stand sind!
 
 [flipdot.org]: https://flipdot.org/
