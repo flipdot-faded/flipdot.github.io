@@ -5,7 +5,7 @@
 
     h1 {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
 
         border-bottom: 2px solid $flipdot-yellow;
     }
@@ -35,11 +35,13 @@
 }
 
 .post-header time {
-    font-family: 'Open Sans';
+    font-family: 'OpenSans';
     font-size: 1rem;
     color: $text-grey;
 
+    margin-left: auto;
     align-self: flex-end;
+    padding-left: .75em;
     padding-bottom: .5rem;
 }
 
