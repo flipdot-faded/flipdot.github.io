@@ -8,7 +8,7 @@
     max-width: $max-content-width;
 
     .title {
-        padding: .5rem 1.5rem .5rem .5rem;
+        padding: .5rem 1.5rem .5rem 1rem;
     }
 }
 
@@ -163,6 +163,10 @@
 
     .header-dropdown-button {
         display: none;
+    }
+
+    .status-bar {
+        margin-right: 1rem;
     }
 
     .site-nav a:hover,

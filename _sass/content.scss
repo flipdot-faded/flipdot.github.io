@@ -1,7 +1,12 @@
 .site-content {
     margin: 0 auto;
-    padding: .5rem;
+    padding: 1rem;
     max-width: $max-content-width;
+
+    > main {
+        display: flex;
+        flex-direction: column;
+    }
 
     h1 {
         display: flex;
