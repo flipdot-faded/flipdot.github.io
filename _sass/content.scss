@@ -4,6 +4,9 @@
     max-width: $max-content-width;
 
     h1 {
+        display: flex;
+        justify-content: space-between;
+
         border-bottom: 2px solid $flipdot-yellow;
     }
 
@@ -29,6 +32,15 @@
         // TODO: keep this?
         border-bottom: 1px solid #aaa;
     }
+}
+
+.post-header time {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: $text-grey;
+
+    align-self: flex-end;
+    padding-bottom: .5rem;
 }
 
 .attachment {
