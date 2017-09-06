@@ -6,6 +6,7 @@ title: 'Neues Wiki: ToDo'
   * Navigation: Aktuelle Seite anzeigen
 * Kommentare
   * <https://posativ.org/isso/>?
+  * <http://coralproject.net/products/talk.html>?
 * Suche
   * Eingebaut: <https://github.com/christian-fei/Simple-Jekyll-Search>
   * Oder extern: `<form action="https://duckduckgo.com/">`
