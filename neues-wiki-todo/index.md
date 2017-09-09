@@ -10,7 +10,7 @@ title: 'Neues Wiki: ToDo'
 * Suche
   * Eingebaut: <https://github.com/christian-fei/Simple-Jekyll-Search>
   * Oder extern: `<form action="https://duckduckgo.com/">`
-* geotag zu dein Seiten-Metadaten hinzufügen?
+* geotag zu den Seiten-Metadaten hinzufügen?
   * Ganz wichtig!!1elf
 * Was machen wir mit dem "Wiki Lotto"?
   * Neu implementieren in Liquid (wird dann bei jeder Neugenerierung der Seite
