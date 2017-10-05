@@ -2,7 +2,7 @@
 title: 'Neues Wiki: ToDo'
 ---
 
-* Neues Design / Layout mit ähnlichem Aussehen wie [flipdot.org][]
+* Neues Design / Layout mit ähnlichem Aussehen wie [flipdot.org](https://flipdot.org/)
   * Navigation: Aktuelle Seite anzeigen
 * Kommentare
   * <https://posativ.org/isso/>?
