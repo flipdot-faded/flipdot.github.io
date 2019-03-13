@@ -17,7 +17,7 @@ Then run
 
 and you will have a web server on `localhost:4000` that serves the site.
 
-[bundler]: http://bundler.io/http://bundler.io/http://bundler.io/
+[bundler]: https://bundler.io/
 
 ## Deploying
 
