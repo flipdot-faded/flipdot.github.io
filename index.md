@@ -5,7 +5,7 @@ layout: frontpage
 Hallo!
 
 Du bist auf unserer Test-Seite für [github-md-editor][] gelandet. "Wir" sind der
-[Flipdot Kassel][flipdot.org], und wir wollen diese Seite irgendwann mal als
+[flipdot Kassel][flipdot.org], und wir wollen diese Seite irgendwann mal als
 unsere Haupt-Website verwenden (sobald der Editor zuverlässig funktioniert...).
 
 Was es an dieser Seite noch alles zu tun gibt, bevor der Umzug richtig starten
